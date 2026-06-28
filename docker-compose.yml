@@ -21,7 +21,7 @@ services:
     restart: always
   php-fpm:
     build:
-      context: https://github.com/jebbett/pterodactyl-panel-docker.git#main
+      context: https://github.com/jebbett/docker-pterodactyl-panel.git#master
       dockerfile: Dockerfile
     image: jebbett/pterodactyl-panel:v1.14.0
     restart: always
